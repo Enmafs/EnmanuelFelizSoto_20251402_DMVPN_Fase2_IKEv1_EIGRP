@@ -22,7 +22,8 @@ DMVPN Fase 2 permite túneles Spoke-to-Spoke dinámicos sin pasar por el Hub. NH
 
 ## 🗺️ Topología
 
-> 📸 **[INSERTAR CAPTURA DE TOPOLOGÍA AQUÍ]**
+> 📸 <img width="1472" height="805" alt="Captura de pantalla 2026-06-21 154657" src="https://github.com/user-attachments/assets/fa74ec3a-b3f5-4b6a-9c2d-60e4a2641331" />
+
 <!-- Coloca aquí el screenshot de PNetLab con la topología del Lab 07 -->
 
 **Entorno:** PNetLab — Cisco IOL  
@@ -146,16 +147,20 @@ ping 30.30.30.1
 
 ## 📸 Capturas de Verificación
 
-> 📸 **[INSERTAR CAPTURA: show dmvpn]**
+> 📸 <img width="703" height="242" alt="image" src="https://github.com/user-attachments/assets/2a481bee-3f8a-4c65-8026-4c16ccdd8e2b" />
+
 <!-- Captura mostrando spokes registrados con estado UP -->
 
-> 📸 **[INSERTAR CAPTURA: show crypto isakmp sa]**
+> 📸 <img width="786" height="430" alt="image" src="https://github.com/user-attachments/assets/832d5bc9-c3db-43b6-94df-ea27d5624c8c" />
+
 <!-- Captura mostrando estado QM_IDLE -->
 
-> 📸 **[INSERTAR CAPTURA: show crypto ipsec sa]**
+> 📸 <img width="338" height="136" alt="image" src="https://github.com/user-attachments/assets/24157907-fd54-4e1b-94bb-80180812a40b" />
+
 <!-- Captura mostrando pkts encaps/decaps incrementando -->
 
-> 📸 **[INSERTAR CAPTURA: ping exitoso]**
+> 📸 <img width="729" height="390" alt="image" src="https://github.com/user-attachments/assets/772150bc-8848-4d36-a9d5-7d85643c0be7" />
+
 <!-- Ping desde R1-S1 hacia 30.30.30.1 (LAN de R3) -->
 
 ---
